@@ -22,7 +22,7 @@ Assessments of reproducibility can easily gravitate towards binary assessments t
 
 First, a paper may contain several scientific claims, out of which all can vary in computational reproducibility. Each claim is tested using different methodologies where results are presented in one ore more outputs (like table and figures). Each output will itself contain several specifications. Figure \@ref(fig:diagram) illustrates this idea. 
 
-```{r diagram, echo=FALSE, fig.cap="One paper has multiple components to reproduce"}
+```{r diagram, echo=FALSE, fig.cap="One paper has multiple components to reproduce. In the figure below o=output, s=specification"}
 library(DiagrammeR)
 
 grViz("
